@@ -24,8 +24,6 @@ let cognomeEstratto = "";
 
 let listaCompleta = [];
 
-nomeEstratto = listaNomi[Math.round(Math.random()*listaNomi.length)]
-        console.log(listaNomi)
 
 for (let i = 0; i < listaNomi.length ; i++){
 
