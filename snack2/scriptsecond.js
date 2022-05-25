@@ -32,8 +32,10 @@ for (let i = 0; i < listaNomi.length ; i++){
 
     cognomeEstratto  = listaCognomi[Math.round(Math.random()*listaCognomi.length)];
         console.log(listaCognomi)
+
+        const nuovoCognomeNome = listaNomi[nomeEstratto] + "" + listaCognomi[cognomeEstratto]
     
-    listaCompleta = `${nomeEstratto} ${cognomeEstratto}`
+    listaCompleta.push(nuovoCognomeNome)
         
         console.log(listaCompleta)
 }
